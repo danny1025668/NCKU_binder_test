@@ -1,0 +1,22 @@
+name: rest
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - ipywidgets
+  - matplotlib
+  - pandas
+  - geopandas
+  - pip
+  - ipympl
+  - jupyter-book=0.10
+  - seaborn
+  - xarray
+  - pygmt
+  - pip:
+    - rasterio
+    - shapely
